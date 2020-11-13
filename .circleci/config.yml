@@ -12,7 +12,7 @@ commands:
             curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
             sudo apt-add-repository https://packages.microsoft.com/ubuntu/20.04/prod
             sudo apt-get update
-            sudo apt-get install --allow dotnet-sdk-3.1
+            sudo apt-get install -y dotnet-sdk-3.1
 
   build:
     steps:
